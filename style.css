@@ -147,9 +147,12 @@ form input,form textarea{
     background: #8ad8d4;
     padding: 15px;
     margin: 15px 0;
-    color: #8bcdca;
+    color: #020706;
     font-size: 18px;
     border-radius: 6px;
+}
+form input::placeholder, form textarea::placeholder {
+    color: #004d47; /* Darker placeholder text color */
 }
 form .btn{
     background-color: #61dede15;
